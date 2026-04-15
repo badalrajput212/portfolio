@@ -490,8 +490,55 @@ footer {
         display: none; /* Can be replaced with a hamburger menu later */
     }
     
+    /*  */
+    @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+}
+    
     .circle-bg {
         width: 250px;
         height: 250px;
     }
 }
+/* Mobile responsive  */
+/* Small devices (phones) */
+@media (max-width: 480px) {
+    
+    section {
+        padding: 4rem 1.5rem;
+        min-height: auto;
+    }
+
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .circle-bg {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-primary {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
